@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -20,7 +20,7 @@
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Город</h2>
             <label class="search-form__label">
-              <span class="search-form__label-text visually-hidden">Город</span>
+              <span class="search-form__label-text visually-hidden"></span>
               <input
                 type="text"
                 placeholder="Санкт Петербург, например"
@@ -58,6 +58,7 @@
                   name="time"
                   value="night"
                   class="search-form__checkbox visually-hidden"
+                  aria-checked="true"
                 />
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">Ночь</span>
@@ -102,7 +103,11 @@
               <h2 class="content__video-card-title"></h2>
               <p class="content__video-card-description"></p>
             </div>
-            <img src="" alt="" class="content__video-card-thumbnail" />
+            <img
+              src=""
+              alt="Короткое видео с улицы выбранного города"
+              class="content__video-card-thumbnail"
+            />
           </article>
         </a>
       </li>
